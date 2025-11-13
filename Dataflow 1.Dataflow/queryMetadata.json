@@ -1,0 +1,71 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {},
+  "name": "Dataflow 1",
+  "queryGroups": [],
+  "documentLocale": "en-US",
+  "queriesMetadata": {
+    "DefaultDestination": {
+      "queryId": "325d40fd-4d00-4ece-89fd-ede6a2eda84a",
+      "queryName": "DefaultDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "DimProduct": {
+      "queryId": "92fae02f-f7c6-4372-bbcc-ed05d2e3d526",
+      "queryName": "DimProduct",
+      "loadEnabled": false
+    },
+    "DimProductCategory": {
+      "queryId": "39814399-6808-4c8b-aa30-b6c85f89970d",
+      "queryName": "DimProductCategory",
+      "loadEnabled": false
+    },
+    "DimProductSubcategory": {
+      "queryId": "6e3a4bbe-3c8b-4082-8644-dfe25ecef75e",
+      "queryName": "DimProductSubcategory",
+      "loadEnabled": false
+    },
+    "FactInternetSales": {
+      "queryId": "9fd5e42c-5ced-43ee-beb5-98cb08b4e98d",
+      "queryName": "FactInternetSales",
+      "loadEnabled": false
+    },
+    "DimProduct_DataDestination": {
+      "queryId": "1095f43d-8e8d-460c-bff1-5c8fde2daae9",
+      "queryName": "DimProduct_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "DimProductCategory_DataDestination": {
+      "queryId": "529e924b-0266-430d-87fc-f0cfa020d813",
+      "queryName": "DimProductCategory_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "DimProductSubcategory_DataDestination": {
+      "queryId": "d2b6b893-1f57-4590-94f8-48332094d2d1",
+      "queryName": "DimProductSubcategory_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "FactInternetSales_DataDestination": {
+      "queryId": "8de5d089-0f6b-4bcf-96eb-aeeea67e5afc",
+      "queryName": "FactInternetSales_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    }
+  },
+  "connections": [
+    {
+      "path": "Lakehouse",
+      "kind": "Lakehouse",
+      "connectionId": "{\"ClusterId\":\"99c965b0-c7e3-4bec-9793-4112df1d6449\",\"DatasourceId\":\"4f410e11-fb0e-4171-a5b2-371905e1c3b8\"}"
+    },
+    {
+      "path": "https://drakeanalytics-my.sharepoint.com/personal/alexander_torngren_drakeanalytics_se/",
+      "kind": "Web",
+      "connectionId": "{\"ClusterId\":\"99c965b0-c7e3-4bec-9793-4112df1d6449\",\"DatasourceId\":\"42886f61-a017-4663-9af0-995aaa587601\"}"
+    }
+  ]
+}

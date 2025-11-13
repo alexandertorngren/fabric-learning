@@ -1,0 +1,36 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {},
+  "name": "Dataflow 2",
+  "queryGroups": [],
+  "documentLocale": "en-US",
+  "queriesMetadata": {
+    "DimProduct": {
+      "queryId": "048fc51e-c3ec-4adc-a6a1-5829aca596bc",
+      "queryName": "DimProduct",
+      "loadEnabled": false
+    },
+    "DimProductCategory": {
+      "queryId": "9459606d-3950-41d6-93c5-cbfbd5296b8c",
+      "queryName": "DimProductCategory",
+      "loadEnabled": false
+    },
+    "DimProductSubcategory": {
+      "queryId": "0d4f4a10-5f36-49df-a008-9d1099aacd20",
+      "queryName": "DimProductSubcategory",
+      "loadEnabled": false
+    },
+    "FactInternetSales": {
+      "queryId": "8407a04f-1ddd-43a7-950f-7480b4a5dbf4",
+      "queryName": "FactInternetSales",
+      "loadEnabled": false
+    }
+  },
+  "connections": [
+    {
+      "path": "https://drakeanalytics-my.sharepoint.com/personal/alexander_torngren_drakeanalytics_se/",
+      "kind": "Web",
+      "connectionId": "{\"ClusterId\":\"99c965b0-c7e3-4bec-9793-4112df1d6449\",\"DatasourceId\":\"42886f61-a017-4663-9af0-995aaa587601\"}"
+    }
+  ]
+}
